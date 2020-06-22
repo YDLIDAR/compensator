@@ -10,7 +10,7 @@ FILE(GLOB SRCS "*.cpp")
 FILE(GLOB HDRS "*.h")
 FILE(GLOB MATRIX_HDRS "matrix/*.hpp")
 
-#add_subdirectory(examples)
+add_subdirectory(examples)
 
 #add library
 add_library(${PROJECT_NAME} ${HDRS} ${SRCS} ${MATRIX_HDRS})
